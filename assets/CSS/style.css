@@ -11,7 +11,7 @@ body {
 
 header {
   color: #f1f1f1;
-  background-color:#daebf3 ;
+  background: linear-gradient(230deg, rgba(82,106,223,1) 0%, rgba(146,218,244,1) 100%);
   padding-top: 30px;
   padding-bottom: 25px;
   
@@ -20,6 +20,7 @@ header {
 header h1 {
   color: #daebf3;
   text-align: center;
+  visibility: hidden;
 }
 
 .input{
@@ -97,7 +98,7 @@ width: 65px;
 
 footer {
   text-align: center;
-  background-color: #daebf3;
+  background: linear-gradient(230deg, rgba(82,106,223,1) 0%, rgba(146,218,244,1) 100%);
   padding-top: 25px;
   padding-bottom: 57px;
   margin-top: 475px;
@@ -142,3 +143,16 @@ footer {
   visibility: hidden;
 }
 
+.cardbody {
+  background: linear-gradient(230deg, rgba(82,106,223,1) 0%, rgba(146,218,244,1) 100%);
+  border-radius: 10px;
+  margin-top: 40px;
+}
+
+#Today {
+  background: linear-gradient(230deg, rgb(174, 186, 234) 0%, rgba(146,218,244,1) 100%);
+}
+
+button.placeholder{
+  font-size: 100px;
+}

@@ -81,11 +81,11 @@
     text-center bg-light
 col-md-6 .offset-md-3">
       <div id="Today" class="border"> 
-        <img id="todayImg" src="" class="icon"></img>
-        <div id="todayDate" class="dt"></div>
-        <div id="todayTemp" class="temp"></div>
-        <div id="todayWind" class="wind"></div>
-        <div id="todayHumidity" class="humidity"></div>
+        <img id="todayImg" id='placeholderImg' src="" class="icon"></img>
+        <div id="todayDate" id='placeholderDate' class="dt"></div>
+        <div id="todayTemp" id='placeholderTemp' class="temp"></div>
+        <div id="todayWind" class="wind" id='placeholderWind'></div>
+        <div id="todayHumidity" id='placeholderHumid' class="humidity"></div>
       </div>
     </div>
   </div>
@@ -97,7 +97,7 @@ col-md-6 .offset-md-3">
   <div class="container">
     <div class="row">
       <div class="col">
-        <div id="dayOne" class="border">
+        <div id="dayOne" class="border cardbody">
           <img id="dayOneImg" src="" class="icon"></img>
           <div id="dayOneDate" class="dt"></div>
           <div id="dayOneTemp" class="temp"></div>
@@ -106,7 +106,7 @@ col-md-6 .offset-md-3">
         </div>
       </div>
       <div class="col">
-        <div id="dayTwo" class="border"> 
+        <div id="dayTwo" class="border cardbody"> 
           <img id="dayTwoImg" src="" class="icon"></img>
           <div id="dayTwoDate" class="dt"></div>
           <div id="dayTwoTemp" class="temp"></div>
@@ -115,7 +115,7 @@ col-md-6 .offset-md-3">
         </div>
       </div>
       <div class="col">
-        <div id="dayThree"> 
+        <div id="dayThree" class="border cardbody"> 
           <img id="dayThreeImg" src="" class="icon"></img>
           <div id="dayThreeDate" class="dt"></div>
           <div id="dayThreeTemp" class="temp" ></div>
@@ -124,7 +124,7 @@ col-md-6 .offset-md-3">
         </div>
       </div>
       <div class="col">
-        <div id="dayFour"> 
+        <div id="dayFour" class="border cardbody"> 
           <img id="dayFourImg" src="" class="icon"></img>
           <div id="dayFourDate" class="dt"></div>
           <div id="dayFourTemp" class="temp"></div>
@@ -133,7 +133,7 @@ col-md-6 .offset-md-3">
         </div>
       </div>
       <div class="col">
-        <div id="dayFive">
+        <div id="dayFive" class="border cardbody">
           <img id="dayFiveImg" src="" class="icon"></img>
           <div id="dayFiveDate" class="dt"></div>
           <div id="dayFiveTemp" class="temp"></div>
@@ -213,7 +213,12 @@ col-md-6 .offset-md-3">
   <input type="submit" value="submit" class="button">
 </section>
 
-
+<div class="text-center col-md-6 offset-md-3">
+  <button type="submit" class="btn btn-secondary w-100 mt-3" placeholder="Previously Searched city">Previously Searched city</button>
+  <button type="submit" class="btn btn-secondary w-100 mt-3" placeholder="Previously Searched city">Previously Searched city</button>
+  <button type="submit" class="btn btn-secondary w-100 mt-3" placeholder="Previously Searched city">Previously Searched city</button>
+  <button type="submit" class="btn btn-secondary w-100 mt-3" placeholder="Previously Searched city">Previously Searched city</button>
+</div>
 
 
 <footer>
