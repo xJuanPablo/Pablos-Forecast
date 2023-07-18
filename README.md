@@ -1,10 +1,12 @@
 # Pablos-Forecast
 
+
 ## description
 
 This application generates real-time information about the current weather and the near future. Stay tuned for all updates.
 
 ## Screenshot
+
 
 ![Alt text](/assets/photos/Screenshot%202023-07-17%20at%208.02.06%20PM.png)
 
